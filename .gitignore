@@ -1,0 +1,15 @@
+.DS_Store
+private-source/
+*.log
+node_modules/
+dist/
+build/
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+*.csproj
+*.sln
+*.user
+*.unitypackage
