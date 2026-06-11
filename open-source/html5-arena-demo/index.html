@@ -1,29 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HTML5 Arena Demo</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <main class="shell">
-      <section class="hud">
-        <div>
-          <span>Score</span>
-          <strong id="score">0</strong>
-        </div>
-        <div>
-          <span>Health</span>
-          <strong id="health">100</strong>
-        </div>
-        <div>
-          <span>Dash</span>
-          <strong id="dash">Ready</strong>
-        </div>
-      </section>
-      <canvas id="game" width="960" height="540" aria-label="Arena game canvas"></canvas>
-    </main>
-    <script src="game.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Arena Demo</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hud" aria-label="Game status">
+      <div>
+        <span class="label">Score</span>
+        <strong id="score">0</strong>
+      </div>
+      <div>
+        <span class="label">Time</span>
+        <strong id="timer">0.0s</strong>
+      </div>
+      <div>
+        <span class="label">State</span>
+        <strong id="state">Ready</strong>
+      </div>
+    </section>
+
+    <canvas id="game" width="960" height="540" aria-label="Arena game canvas"></canvas>
+
+    <section class="controls" aria-label="Controls">
+      <span>Move: WASD / Arrows</span>
+      <span>Pause: Space</span>
+      <span>Restart: R</span>
+    </section>
+  </main>
+
+  <script src="src/game.js"></script>
+</body>
 </html>
