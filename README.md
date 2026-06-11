@@ -1,95 +1,116 @@
-# Game Scripting & Plugin Development
+# Game Script Portfolio
 
-I build game systems, plugins, and gameplay tools for small studios, server owners, and independent creators.
+A professional open-source portfolio for game scripting, gameplay systems, and server plugin development.
 
-Source code is kept in private repositories unless a client requests otherwise. This public page is a portfolio and service overview.
+This repository showcases the type of work I build for independent creators, Minecraft server owners, small studios, and game communities: clean gameplay logic, practical server tools, readable code structure, and documentation that helps projects stay maintainable after delivery.
 
-## Services
+> Scope note: this portfolio focuses on legitimate development, approved modding, server administration, QA tooling, and learning examples. It does not support cheating, anti-cheat bypassing, account abuse, or violations of game/platform terms of service.
 
-- Minecraft server plugins: Paper, Spigot, Bukkit, commands, events, economy hooks, permissions, mini-games, admin tools
-- Unity gameplay features: C# systems, UI, inventory, quests, items, save/load, bug fixing, prototypes
-- FiveM server scripts: Lua resources, jobs, shops, vehicles, database-backed RP features
-- Web games and interactive demos: HTML5, Canvas, Phaser, Three.js
-- Game bug fixing: reproduce issues, isolate causes, patch logic, document changes
+## What I Build
 
-## Open Source Samples
+### Minecraft Server Plugins
 
-These public samples show code style and project structure. Client project source code is delivered separately.
+Custom Paper, Spigot, and Bukkit plugins for servers that need reliable gameplay and administration features.
 
-- `open-source/unity-quest-system` - reusable Unity C# quest and objective system
-- `open-source/minecraft-message-kit` - Java message, cooldown, and reward utilities for Paper/Spigot plugins
-- `open-source/html5-arena-demo` - browser-based Canvas arcade combat demo
+Typical work includes:
 
-## Example Project Types
+- Commands, permissions, and configuration files
+- Spawn, homes, teleportation, rewards, cooldowns, and moderation tools
+- Economy and permissions integrations
+- Mini-game logic and event-driven features
+- YAML or database-backed player data
+- Installation notes and server-owner documentation
 
-### Minecraft Plugin
+### Unity Gameplay Systems
 
-Custom server plugin with commands, permissions, config files, event listeners, cooldowns, rewards, and admin controls.
+Focused C# systems for prototypes, indie games, and existing Unity projects.
 
-Possible features:
+Typical work includes:
 
-- Custom commands
-- Economy integration
-- Player rewards
-- Mini-game logic
-- Server moderation tools
-- Configurable messages and settings
-
-### Unity Gameplay System
-
-Focused Unity feature implementation or bug fixing for an existing project.
-
-Possible features:
-
-- Inventory and item systems
-- Player controller fixes
-- Enemy AI behavior
-- Quest or mission logic
-- UI panels and menus
+- Inventory, items, quests, missions, and rewards
+- UI panels, menus, and interaction flows
 - Save/load support
+- Enemy behavior and gameplay state management
+- Bug reproduction, logic fixes, and refactoring
+- Small vertical-slice prototypes
 
-### FiveM Lua Resource
+### FiveM Lua Resources
 
-Server-side or client-side Lua resource for GTA RP servers.
+Lua resources for GTA RP servers that need clear, maintainable server-side or client-side features.
 
-Possible features:
+Typical work includes:
 
-- Job systems
-- Shops and menus
-- Vehicle-related features
-- Database integration
-- Permission checks
+- Jobs, shops, menus, and interaction zones
+- Vehicle and player workflow scripts
 - Server events and callbacks
+- Permission checks and database integration
+- Configuration-driven feature behavior
 
-## Delivery
+### Web Games And Interactive Demos
 
-Typical delivery can include:
+Browser-based gameplay and visual demos using HTML5, Canvas, Phaser, Three.js, or vanilla JavaScript.
 
-- Private source repository
-- Installation instructions
-- Config file examples
+Typical work includes:
+
+- Small arcade demos
+- Interactive prototypes
+- UI/gameplay experiments
+- Deployment-ready static builds
+
+## Public Sample Areas
+
+Public samples are used to demonstrate code style, documentation quality, and project structure. Client source code is delivered privately unless otherwise agreed.
+
+Planned sample areas:
+
+- `open-source/unity-quest-system` - reusable Unity quest and objective structure
+- `open-source/minecraft-message-kit` - Paper/Spigot utilities for messages, cooldowns, and rewards
+- `open-source/html5-arena-demo` - small browser combat demo with documented game loop
+
+## Delivery Standards
+
+A professional delivery normally includes:
+
+- Source code in a private or public repository
+- Installation and setup instructions
+- Config examples where relevant
+- Usage notes for commands, permissions, or gameplay flows
 - Basic testing notes
-- Short usage documentation
-- Bug-fix support window, if agreed before the project starts
+- Known limitations and future improvement ideas
 
 ## Pricing Guide
 
-Actual pricing depends on scope, existing code quality, and testing requirements.
+Pricing depends on scope, current code quality, integrations, and testing requirements.
 
-- Small bug fix or simple command: USD 20-50
-- Small standalone feature: USD 50-150
-- Medium gameplay system or plugin: USD 150-500
-- Larger custom system: quoted after reviewing requirements
+| Project type | Typical range |
+| --- | ---: |
+| Small bug fix or simple command | USD 20-50 |
+| Small standalone feature | USD 50-150 |
+| Medium gameplay system or plugin | USD 150-500 |
+| Larger custom system | Quoted after review |
 
-## How To Request Work
+## Requesting Work
 
 Please include:
 
-- Game or platform
-- Existing project files, if any
+- Game, engine, server type, or platform
+- Existing project files or repository, if available
 - Exact feature list
-- Screenshots or video of the issue, if it is a bug
+- Screenshots, logs, or video for bugs
+- Required integrations
 - Deadline
 - Budget range
 
-Clear requirements make the project faster, cheaper, and easier to test.
+Clear requirements reduce development time and make testing easier.
+
+## Why Star This Repository
+
+Star this repository if you want to follow practical examples of game scripting, Minecraft plugin development, Unity gameplay systems, and clean open-source project structure. Stars help the project reach more developers and make future public samples easier to prioritize.
+
+## Contributing
+
+Contributions are welcome when they improve documentation, examples, project structure, or ethical scripting practices. Please read `CONTRIBUTING.md` before opening a pull request.
+
+## License
+
+Released under the MIT License. See `LICENSE` for details.
