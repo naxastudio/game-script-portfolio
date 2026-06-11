@@ -14,6 +14,23 @@ Every public sample should include:
 - No private client code
 - No secrets or account-specific configuration
 
+## Available Samples
+
+### HTML5 Arena Demo
+
+A browser-based game loop example for small interactive demos.
+
+Current features:
+
+- Canvas rendering
+- Player movement
+- Enemy spawning
+- Collision handling
+- Score and restart flow
+- Pause/resume control
+
+Location: `open-source/html5-arena-demo`
+
 ## Planned Samples
 
 ### Unity Quest System
@@ -38,18 +55,6 @@ Planned features:
 - Cooldown manager
 - Simple reward utility
 - Permission-safe command example
-
-### HTML5 Arena Demo
-
-A browser-based game loop example for small interactive demos.
-
-Planned features:
-
-- Canvas rendering
-- Player movement
-- Simple enemy behavior
-- Collision handling
-- Score and restart flow
 
 ## Growth Notes
 
