@@ -6,6 +6,14 @@ This repository showcases the type of work I build for independent creators, Min
 
 > Scope note: this portfolio focuses on legitimate development, approved modding, server administration, QA tooling, and learning examples. It does not support cheating, anti-cheat bypassing, account abuse, or violations of game/platform terms of service.
 
+## Featured Open Source Sample
+
+### HTML5 Arena Demo
+
+`open-source/html5-arena-demo` is a small browser game built with HTML5 Canvas and vanilla JavaScript. It demonstrates a professional gameplay script structure with input handling, a frame loop, enemy spawning, collision checks, scoring, pause, and restart logic.
+
+Run it by opening `open-source/html5-arena-demo/index.html` in a browser.
+
 ## What I Build
 
 ### Minecraft Server Plugins
@@ -61,11 +69,14 @@ Typical work includes:
 
 Public samples are used to demonstrate code style, documentation quality, and project structure. Client source code is delivered privately unless otherwise agreed.
 
+Available samples:
+
+- `open-source/html5-arena-demo` - browser-based Canvas arena survival demo with documented game loop
+
 Planned sample areas:
 
 - `open-source/unity-quest-system` - reusable Unity quest and objective structure
 - `open-source/minecraft-message-kit` - Paper/Spigot utilities for messages, cooldowns, and rewards
-- `open-source/html5-arena-demo` - small browser combat demo with documented game loop
 
 ## Delivery Standards
 
