@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML5 Arena Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hud">
+        <div>
+          <span>Score</span>
+          <strong id="score">0</strong>
+        </div>
+        <div>
+          <span>Health</span>
+          <strong id="health">100</strong>
+        </div>
+        <div>
+          <span>Dash</span>
+          <strong id="dash">Ready</strong>
+        </div>
+      </section>
+      <canvas id="game" width="960" height="540" aria-label="Arena game canvas"></canvas>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
